@@ -6,7 +6,7 @@ def parse_file(file_name):  # File to data format
     return values
 
 
-def parse_string(text):  # String to data format
+def parse_other_input(text):  # Other input to data format
     values = []
     split = text.split(", ")
     for t in split:

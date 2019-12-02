@@ -1,5 +1,5 @@
 import unittest
-from solution import *
+from solution import parse_file, parse_other_input, solve_part_1, solve_part_2
 
 
 part_1_tests = [["+1, +1, +1", 3],
@@ -16,7 +16,7 @@ class TestPart1(unittest.TestCase):
         for i in part_1_tests:
             input = i[0]
             correct = i[1]
-            data = parse_string(input)
+            data = parse_other_input(input)
             answer = solve_part_1(data)
             self.assertEqual(correct, answer)
 
@@ -26,7 +26,7 @@ class TestPart2(unittest.TestCase):
         for i in part_2_tests:
             input = i[0]
             correct = i[1]
-            data = parse_string(input)
+            data = parse_other_input(input)
             answer = solve_part_2(data)
             self.assertEqual(correct, answer)
 

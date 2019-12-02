@@ -9,7 +9,7 @@ def parse_file(file_name):
     return values
 
 
-def parse_string(text):
+def parse_other_input(text):
     return [int(text)]
 
 

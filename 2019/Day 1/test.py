@@ -1,5 +1,5 @@
 import unittest
-from solution import parse_file, parse_string, solve_part_1, solve_part_2
+from solution import parse_file, parse_other_input, solve_part_1, solve_part_2
 
 part_1_tests = [[12, 2],
                 [14, 2],

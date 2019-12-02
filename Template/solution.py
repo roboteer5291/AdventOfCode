@@ -2,7 +2,7 @@ def parse_file(file_name):  # File to data format
     return None
 
 
-def parse_string(text):  # String to data format
+def parse_other_input(text):  # Other input to data format
     return None
 
 
